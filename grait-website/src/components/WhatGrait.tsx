@@ -25,18 +25,18 @@ export default function WhatGrait() {
       <div className="w-full flex flex-col md:flex-row">
 
         {/* LEFT — The Problem */}
-        <div className="relative flex flex-col md:w-1/2 pt-16 pb-0 overflow-hidden bg-[#0d1f3c]">
-          <h3 className="text-4xl md:text-5xl font-extrabold text-[#4a6580] mb-5 leading-tight text-center px-12">
+        <div className="relative flex flex-col md:w-2/5 pt-16 pb-0 overflow-hidden bg-[#0d1f3c]">
+          <h3 className="text-4xl md:text-5xl font-extrabold text-[#8aa0b8] mb-5 leading-tight text-right px-12">
             The Problem
           </h3>
-          <p className="text-[15px] text-gray-400 leading-relaxed text-center mb-8 px-12">
+          <p className="text-[18px] text-gray-300 leading-relaxed text-right mb-8 px-12">
             Most cloud initiatives fail or stall because they are treated as
             one-off DevOps projects — dependent on large teams, manual effort,
             and institutional knowledge.
           </p>
-          {/* Image — half size, flush right against divider */}
-          <div className="flex justify-end mt-auto">
-            <div className="relative w-1/2 rounded-tl-2xl rounded-bl-2xl overflow-hidden shadow-2xl" style={{ aspectRatio: "4/3" }}>
+          {/* Image — 75% width, pushed right to meet the divider */}
+          <div className="flex justify-end mt-auto pl-8 pb-10">
+            <div className="relative w-3/4 rounded-tl-2xl rounded-bl-2xl overflow-hidden shadow-2xl" style={{ height: "320px" }}>
               <Image
                 src="/below_hero1.png"
                 alt="The Problem"
@@ -52,7 +52,7 @@ export default function WhatGrait() {
 
         {/* RIGHT — The GRAIT Difference */}
         <div
-          className="relative flex flex-col md:w-1/2 pt-16 pb-0 overflow-hidden"
+          className="relative flex flex-col md:w-3/5 pt-16 pb-0 overflow-hidden"
           style={{
             background: "linear-gradient(to bottom, transparent 0%, #00cccc 18%, #0099CC 55%, #0077aa 100%)",
           }}
@@ -71,14 +71,14 @@ export default function WhatGrait() {
           <h3 className="text-4xl md:text-5xl font-extrabold text-white mb-5 leading-tight px-12">
             The GRAIT Difference
           </h3>
-          <p className="text-[16px] text-white font-semibold leading-relaxed mb-8 max-w-sm px-12">
+          <p className="text-[18px] text-white font-semibold leading-relaxed mb-8 max-w-sm px-12">
             GRAIT turns cloud onboarding and operations into a product, not a
             project.
           </p>
 
-          {/* Image — half size, flush left against divider */}
-          <div className="flex justify-start mt-auto relative z-10">
-            <div className="relative w-1/2 rounded-tr-2xl rounded-br-2xl overflow-hidden shadow-2xl" style={{ aspectRatio: "4/3" }}>
+          {/* Image — 75% width, pushed left to meet the divider */}
+          <div className="flex justify-start mt-auto pr-8 pb-10 relative z-10">
+            <div className="relative w-3/4 rounded-tr-2xl rounded-br-2xl overflow-hidden shadow-2xl" style={{ height: "320px" }}>
               <Image
                 src="/below_hero2.png"
                 alt="The GRAIT Difference"
