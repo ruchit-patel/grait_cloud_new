@@ -7,7 +7,7 @@ export default function Platform() {
       <Navbar />
 
       {/* Hero section with platform_hero.webp background */}
-      <section className="relative w-full h-screen flex flex-col items-start justify-center overflow-hidden">
+      <section className="relative w-full h-screen flex flex-col items-start justify-center overflow-visible">
         {/* Background image */}
         <div className="absolute inset-0 w-full h-full">
           <Image
@@ -42,8 +42,18 @@ export default function Platform() {
       </section>
 
       {/* "What It Does" card section */}
-      <section className="relative w-full px-6 -mt-16 pb-16">
-        <div className="max-w-6xl mx-auto">
+      <section className="relative w-full px-6 -mt-32 pb-16">
+        {/* Gradient background SVG behind the card */}
+        <div className="absolute left-0 right-0 top-[-200px] h-[556px] pointer-events-none select-none z-0">
+          <Image
+            src="/Rectanglebg.svg"
+            alt=""
+            fill
+            className="object-cover object-center"
+          />
+        </div>
+
+        <div className="max-w-6xl mx-auto relative z-10">
           <div className="bg-[#e8f4f8] rounded-3xl px-12 py-14 text-center shadow-2xl">
             <h2 className="text-4xl md:text-5xl font-extrabold text-[#0d1f3c] mb-6">
               What It Does
@@ -53,6 +63,108 @@ export default function Platform() {
               <br className="hidden md:block" />
               It transforms traditionally people-heavy, error-prone DevOps tasks into governed, repeatable platform actions.
             </p>
+          </div>
+        </div>
+      </section>
+
+      {/* Key Capabilities section */}
+      <section className="w-full py-20 px-6 bg-[#0a1f3d]">
+        <div className="max-w-7xl mx-auto">
+          <h2 className="text-4xl md:text-5xl font-extrabold text-white text-center mb-16">
+            Key Capabilities
+          </h2>
+
+          {/* Grid of capabilities */}
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            {/* Card 1 - Automated cloud onboarding */}
+            <div className="flex flex-col gap-4 rounded-2xl border border-[#1a4a7a] bg-[#0d2847] p-8">
+              <div className="w-12 h-12 relative flex-shrink-0">
+                <Image
+                  src="/automated_cloud.svg"
+                  alt="Automated cloud onboarding"
+                  fill
+                  className="object-contain"
+                />
+              </div>
+              <h3 className="text-[17px] text-[#00cccf] font-semibold leading-relaxed">
+                Automated cloud onboarding (AWS, Azure, GCP, private cloud)
+              </h3>
+            </div>
+
+            {/* Card 2 - GenAI-driven migration */}
+            <div className="flex flex-col gap-4 rounded-2xl border border-[#1a4a7a] bg-[#0d2847] p-8">
+              <div className="w-12 h-12 relative flex-shrink-0">
+                <Image
+                  src="/genai.svg"
+                  alt="GenAI-driven migration"
+                  fill
+                  className="object-contain"
+                />
+              </div>
+              <h3 className="text-[17px] text-[#00cccf] font-semibold leading-relaxed">
+                GenAI-driven migration planning and execution
+              </h3>
+            </div>
+
+            {/* Card 3 - Infrastructure provisioning */}
+            <div className="flex flex-col gap-4 rounded-2xl border border-[#1a4a7a] bg-[#0d2847] p-8">
+              <div className="w-12 h-12 relative flex-shrink-0">
+                <Image
+                  src="/infra.svg"
+                  alt="Infrastructure provisioning"
+                  fill
+                  className="object-contain"
+                />
+              </div>
+              <h3 className="text-[17px] text-[#00cccf] font-semibold leading-relaxed">
+                Infrastructure provisioning and configuration
+              </h3>
+            </div>
+
+            {/* Card 4 - CI/CD */}
+            <div className="flex flex-col gap-4 rounded-2xl border border-[#1a4a7a] bg-[#0d2847] p-8">
+              <div className="w-12 h-12 relative flex-shrink-0">
+                <Image
+                  src="/cloud2.svg"
+                  alt="CI/CD automation"
+                  fill
+                  className="object-contain"
+                />
+              </div>
+              <h3 className="text-[17px] text-[#00cccf] font-semibold leading-relaxed">
+                CI/CD and environment setup automation
+              </h3>
+            </div>
+
+            {/* Card 5 - Observability */}
+            <div className="flex flex-col gap-4 rounded-2xl border border-[#1a4a7a] bg-[#0d2847] p-8">
+              <div className="w-12 h-12 relative flex-shrink-0">
+                <Image
+                  src="/observ.svg"
+                  alt="Observability"
+                  fill
+                  className="object-contain"
+                />
+              </div>
+              <h3 className="text-[17px] text-[#00cccf] font-semibold leading-relaxed">
+                Observability, monitoring, and troubleshooting
+              </h3>
+            </div>
+
+            {/* Card 6 - Cloud-agnostic */}
+            <div className="flex flex-col gap-4 rounded-2xl border border-[#1a4a7a] bg-[#0d2847] p-8">
+              <div className="w-12 h-12 relative flex-shrink-0">
+                <Image
+                  src="/cloud2.svg"
+                  alt="Cloud-agnostic deployment"
+                  fill
+                  className="object-contain"
+                />
+              </div>
+              <h3 className="text-[17px] text-[#00cccf] font-semibold leading-relaxed">
+                Cloud-agnostic deployment with no vendor lock-in
+              </h3>
+            </div>
           </div>
         </div>
       </section>
