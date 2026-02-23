@@ -14,7 +14,7 @@ const config: Config = {
         "grait-dark": "#1A2B4A",
       },
       fontFamily: {
-        sans: ["Inter", "sans-serif"],
+        sans: ["Montserrat", "sans-serif"],
       },
     },
   },

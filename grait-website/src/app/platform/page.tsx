@@ -29,15 +29,14 @@ export default function Platform() {
               DevOps AI Agents
             </span>
           </h1>
-          <p className="text-2xl md:text-3xl text-white font-semibold mb-4 max-w-2xl">
+          <p className="text-2xl md:text-2xl text-white font-semibold mb-4 max-w-2xl">
             The DevOps AI Agent is the intelligence layer of GRAIT.
           </p>
-          <p className="text-[17px] text-gray-300 leading-relaxed max-w-xl">
-            It automates cloud onboarding, migration,
-            <br />
-            and day-to-day DevOps operations — reducing
-            <br />
-            dependency on large, specialized teams.
+          <p className="text-[16px] text-gray-300 leading-relaxed max-w-[480px]">
+            It automates cloud onboarding, migration,<br />
+            and day-to-day DevOps operations — <br />
+            reducing dependency on large, specialized
+            teams.
           </p>
         </div>
       </section>
