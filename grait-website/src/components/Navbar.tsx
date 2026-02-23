@@ -5,8 +5,8 @@ import Image from "next/image";
 import Link from "next/link";
 
 const navLinks = [
-  { label: "Home", href: "#" },
-  { label: "Platform", href: "#platform" },
+  { label: "Home", href: "/" },
+  { label: "Platform", href: "/platform" },
   { label: "Infrastructure", href: "#infrastructure" },
   { label: "Why GRAIT", href: "#why-grait" },
   { label: "Contact", href: "#contact" },
