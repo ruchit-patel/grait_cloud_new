@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1921.5" height="846" viewBox="0 0 1921.5 846">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_6" data-name="Rectangle 6" width="1920" height="841" fill="#fff"/>
+    </clipPath>
+    <radialGradient id="radial-gradient" cx="0.5" cy="0.5" r="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#00cccf"/>
+      <stop offset="0.857" stop-color="#0088ec" stop-opacity="0.059"/>
+      <stop offset="1" stop-color="#0084ee" stop-opacity="0"/>
+    </radialGradient>
+    <clipPath id="clip-path-2">
+      <rect id="Rectangle_17" data-name="Rectangle 17" width="1919" height="361" transform="translate(0 0.33)" fill="#fff" stroke="#707070" stroke-width="1"/>
+    </clipPath>
+    <radialGradient id="radial-gradient-2" cx="0.5" cy="0.5" r="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#0084ef" stop-opacity="0.4"/>
+      <stop offset="0.744" stop-color="#0084ef" stop-opacity="0"/>
+      <stop offset="1" stop-color="#0084ef" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <g id="Group_33" data-name="Group 33" transform="translate(1.5 -1965)">
+    <rect id="Rectangle_15" data-name="Rectangle 15" width="1920" height="846" transform="translate(0 1965)" fill="#003866"/>
+    <g id="Group_2" data-name="Group 2" transform="translate(0 1965)">
+      <rect id="Rectangle_5" data-name="Rectangle 5" width="1920" height="840" transform="translate(0 1)" fill="#061735"/>
+      <g id="Mask_Group_2" data-name="Mask Group 2" opacity="0.469" clip-path="url(#clip-path)">
+        <ellipse id="Ellipse_1" data-name="Ellipse 1" cx="865" cy="483" rx="865" ry="483" transform="translate(100 -472)" fill="url(#radial-gradient)"/>
+        <g id="Mask_Group_3" data-name="Mask Group 3" transform="translate(1 479.67)" clip-path="url(#clip-path-2)">
+          <ellipse id="Ellipse_4" data-name="Ellipse 4" cx="960" cy="317.5" rx="960" ry="317.5" transform="translate(-1 64.33)" fill="url(#radial-gradient-2)"/>
+        </g>
+      </g>
+    </g>
+    <path id="Path_66" data-name="Path 66" d="M218.406,882h1920" transform="translate(-219.906 1084.5)" fill="none" stroke="#01cdce" stroke-width="3"/>
+  </g>
+</svg>
