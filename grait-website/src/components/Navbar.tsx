@@ -8,9 +8,9 @@ import { usePathname } from "next/navigation";
 const navLinks = [
   { label: "Home", href: "/" },
   { label: "Platform", href: "/platform" },
-  { label: "Infrastructure", href: "#infrastructure" },
-  { label: "Why GRAIT", href: "#why-grait" },
-  { label: "Contact", href: "#contact" },
+  { label: "Infrastructure", href: "/infrastructure" },
+  { label: "Why GRAIT", href: "/why-grait" },
+  { label: "Contact", href: "/contact" },
 ];
 
 export default function Navbar() {
@@ -68,7 +68,7 @@ export default function Navbar() {
         {/* CTA Button */}
         <div className="hidden md:block">
           <Link
-            href="#contact"
+            href="/contact"
             className="bg-[#0099CC] hover:bg-[#007FAA] text-white text-[15px] font-semibold px-6 py-2.5 rounded-lg transition-colors duration-200"
           >
             Talk to us
@@ -120,7 +120,7 @@ export default function Navbar() {
             );
           })}
           <Link
-            href="#contact"
+            href="/contact"
             onClick={() => setMenuOpen(false)}
             className="bg-[#0099CC] hover:bg-[#007FAA] text-white text-[15px] font-semibold px-6 py-2.5 rounded-lg text-center transition-colors duration-200 mt-2"
           >
