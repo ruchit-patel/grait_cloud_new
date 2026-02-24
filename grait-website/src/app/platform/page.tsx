@@ -168,6 +168,33 @@ export default function Platform() {
           </div>
         </div>
       </section>
+
+      {/* Core Principle section */}
+      <section className="relative w-full py-24 px-6 overflow-hidden">
+        {/* bg2.svg background */}
+        <div className="absolute inset-0 pointer-events-none select-none">
+          <Image
+            src="/bg2.svg"
+            alt=""
+            fill
+            className="object-cover object-center"
+          />
+        </div>
+
+        {/* Teal top border */}
+        <div className="absolute top-0 left-0 right-0 h-1 bg-[#00BFBF]" />
+
+        <div className="relative z-10 max-w-5xl mx-auto text-center">
+          <h2 className="text-4xl md:text-5xl font-extrabold text-white mb-8">
+            Core Principle
+          </h2>
+          <p className="text-2xl md:text-3xl text-white font-semibold leading-relaxed">
+            DevOps, without cloud lock-in.
+            <br />
+            Operate once. Scale everywhere.
+          </p>
+        </div>
+      </section>
     </main>
   );
 }
