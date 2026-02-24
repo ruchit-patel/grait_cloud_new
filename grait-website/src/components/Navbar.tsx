@@ -3,6 +3,7 @@
 import { useState, useEffect } from "react";
 import Image from "next/image";
 import Link from "next/link";
+import { usePathname } from "next/navigation";
 
 const navLinks = [
   { label: "Home", href: "/" },
@@ -15,6 +16,7 @@ const navLinks = [
 export default function Navbar() {
   const [scrolled, setScrolled] = useState(false);
   const [menuOpen, setMenuOpen] = useState(false);
+  const pathname = usePathname();
 
   useEffect(() => {
     const handleScroll = () => setScrolled(window.scrollY > 10);
@@ -45,15 +47,22 @@ export default function Navbar() {
 
         {/* Desktop Nav Links */}
         <div className="hidden md:flex items-center gap-8">
-          {navLinks.map((link) => (
-            <Link
-              key={link.label}
-              href={link.href}
-              className="text-[15px] font-semibold text-gray-800 hover:text-[#0099CC] transition-colors duration-200"
-            >
-              {link.label}
-            </Link>
-          ))}
+          {navLinks.map((link) => {
+            const isActive = pathname === link.href;
+            return (
+              <Link
+                key={link.label}
+                href={link.href}
+                className={`text-[15px] font-semibold transition-colors duration-200 ${
+                  isActive
+                    ? "text-[#0099CC] border-b-2 border-[#0099CC]"
+                    : "text-gray-800 hover:text-[#0099CC]"
+                }`}
+              >
+                {link.label}
+              </Link>
+            );
+          })}
         </div>
 
         {/* CTA Button */}
@@ -93,16 +102,23 @@ export default function Navbar() {
       {/* Mobile Menu */}
       {menuOpen && (
         <div className="md:hidden bg-white/95 backdrop-blur-md border-t border-gray-200 px-6 py-4 flex flex-col gap-4">
-          {navLinks.map((link) => (
-            <Link
-              key={link.label}
-              href={link.href}
-              onClick={() => setMenuOpen(false)}
-              className="text-[15px] font-semibold text-gray-800 hover:text-[#0099CC] transition-colors duration-200"
-            >
-              {link.label}
-            </Link>
-          ))}
+          {navLinks.map((link) => {
+            const isActive = pathname === link.href;
+            return (
+              <Link
+                key={link.label}
+                href={link.href}
+                onClick={() => setMenuOpen(false)}
+                className={`text-[15px] font-semibold transition-colors duration-200 ${
+                  isActive
+                    ? "text-[#0099CC] border-l-4 border-[#0099CC] pl-3"
+                    : "text-gray-800 hover:text-[#0099CC]"
+                }`}
+              >
+                {link.label}
+              </Link>
+            );
+          })}
           <Link
             href="#contact"
             onClick={() => setMenuOpen(false)}

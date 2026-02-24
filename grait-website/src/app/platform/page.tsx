@@ -1,4 +1,5 @@
 import Navbar from "@/components/Navbar";
+import Footer from "@/components/Footer";
 import Image from "next/image";
 
 export default function Platform() {
@@ -170,14 +171,14 @@ export default function Platform() {
       </section>
 
       {/* Core Principle section */}
-      <section className="relative w-full py-24 px-6 overflow-hidden">
+      <section className="relative w-full py-32 px-6 overflow-hidden min-h-[500px]">
         {/* bg2.svg background */}
         <div className="absolute inset-0 pointer-events-none select-none">
           <Image
             src="/bg2.svg"
             alt=""
             fill
-            className="object-cover object-center"
+            className="object-cover object-bottom"
           />
         </div>
 
@@ -195,6 +196,7 @@ export default function Platform() {
           </p>
         </div>
       </section>
+      <Footer />
     </main>
   );
 }
