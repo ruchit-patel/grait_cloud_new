@@ -123,7 +123,7 @@ export default function Infrastructure() {
           {/* Grid of 4 benefit cards */}
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
             {/* Card 1 - Full control */}
-            <div className="flex flex-col gap-6 rounded-2xl border border-[#1a4a7a] bg-[#0d2847] p-8">
+            <div className="group flex flex-col gap-6 rounded-2xl border border-[#1a4a7a] bg-[#0d2847] p-8 transition-all duration-300 hover:border-[#0099CC] hover:bg-gradient-to-br hover:from-[#0099CC]/20 hover:to-[#0099CC]/5 hover:shadow-[0_0_40px_rgba(0,153,204,0.6),inset_0_0_30px_rgba(0,153,204,0.15)] cursor-pointer">
               <div className="w-12 h-12 relative flex-shrink-0">
                 <Image
                   src="/full_control.svg"
@@ -132,14 +132,14 @@ export default function Infrastructure() {
                   className="object-contain"
                 />
               </div>
-              <h3 className="text-[17px] text-[#00cccf] font-semibold leading-relaxed">
+              <h3 className="text-[17px] text-[#00cccf] font-semibold leading-relaxed group-hover:text-[#00BFBF] transition-colors duration-300">
                 Full control over<br />
                 data and workloads
               </h3>
             </div>
 
             {/* Card 2 - Cost transparency */}
-            <div className="flex flex-col gap-6 rounded-2xl border border-[#1a4a7a] bg-[#0d2847] p-8">
+            <div className="group flex flex-col gap-6 rounded-2xl border border-[#1a4a7a] bg-[#0d2847] p-8 transition-all duration-300 hover:border-[#0099CC] hover:bg-gradient-to-br hover:from-[#0099CC]/20 hover:to-[#0099CC]/5 hover:shadow-[0_0_40px_rgba(0,153,204,0.6),inset_0_0_30px_rgba(0,153,204,0.15)] cursor-pointer">
               <div className="w-12 h-12 relative flex-shrink-0">
                 <Image
                   src="/cost.svg"
@@ -148,14 +148,14 @@ export default function Infrastructure() {
                   className="object-contain"
                 />
               </div>
-              <h3 className="text-[17px] text-[#00cccf] font-semibold leading-relaxed">
+              <h3 className="text-[17px] text-[#00cccf] font-semibold leading-relaxed group-hover:text-[#00BFBF] transition-colors duration-300">
                 Cost transparency<br />
                 and predictability
               </h3>
             </div>
 
             {/* Card 3 - Secure, isolated */}
-            <div className="flex flex-col gap-6 rounded-2xl border border-[#1a4a7a] bg-[#0d2847] p-8">
+            <div className="group flex flex-col gap-6 rounded-2xl border border-[#1a4a7a] bg-[#0d2847] p-8 transition-all duration-300 hover:border-[#0099CC] hover:bg-gradient-to-br hover:from-[#0099CC]/20 hover:to-[#0099CC]/5 hover:shadow-[0_0_40px_rgba(0,153,204,0.6),inset_0_0_30px_rgba(0,153,204,0.15)] cursor-pointer">
               <div className="w-12 h-12 relative flex-shrink-0">
                 <Image
                   src="/secure.svg"
@@ -164,14 +164,14 @@ export default function Infrastructure() {
                   className="object-contain"
                 />
               </div>
-              <h3 className="text-[17px] text-[#00cccf] font-semibold leading-relaxed">
+              <h3 className="text-[17px] text-[#00cccf] font-semibold leading-relaxed group-hover:text-[#00BFBF] transition-colors duration-300">
                 Secure, isolated<br />
                 environments
               </h3>
             </div>
 
             {/* Card 4 - Optimized for AI */}
-            <div className="flex flex-col gap-6 rounded-2xl border border-[#1a4a7a] bg-[#0d2847] p-8">
+            <div className="group flex flex-col gap-6 rounded-2xl border border-[#1a4a7a] bg-[#0d2847] p-8 transition-all duration-300 hover:border-[#0099CC] hover:bg-gradient-to-br hover:from-[#0099CC]/20 hover:to-[#0099CC]/5 hover:shadow-[0_0_40px_rgba(0,153,204,0.6),inset_0_0_30px_rgba(0,153,204,0.15)] cursor-pointer">
               <div className="w-12 h-12 relative flex-shrink-0">
                 <Image
                   src="/optimised.svg"
@@ -180,7 +180,7 @@ export default function Infrastructure() {
                   className="object-contain"
                 />
               </div>
-              <h3 className="text-[17px] text-[#00cccf] font-semibold leading-relaxed">
+              <h3 className="text-[17px] text-[#00cccf] font-semibold leading-relaxed group-hover:text-[#00BFBF] transition-colors duration-300">
                 Optimized for AI and<br />
                 high-performance<br />
                 workloads

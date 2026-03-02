@@ -76,7 +76,7 @@ export default function WhyGrait() {
           {/* Grid of 4 outcome cards */}
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
             {/* Card 1 - Faster cloud adoption */}
-            <div className="flex flex-col gap-6 rounded-2xl border border-[#1a4a7a] bg-[#0d2847] p-8">
+            <div className="group flex flex-col gap-6 rounded-2xl border border-[#1a4a7a] bg-[#0d2847] p-8 transition-all duration-300 hover:border-[#0099CC] hover:bg-gradient-to-br hover:from-[#0099CC]/20 hover:to-[#0099CC]/5 hover:shadow-[0_0_40px_rgba(0,153,204,0.6),inset_0_0_30px_rgba(0,153,204,0.15)] cursor-pointer">
               <div className="w-12 h-12 relative flex-shrink-0">
                 <Image
                   src="/faster_cloud.svg"
@@ -85,7 +85,7 @@ export default function WhyGrait() {
                   className="object-contain"
                 />
               </div>
-              <h3 className="text-[17px] text-[#00cccf] font-semibold leading-relaxed">
+              <h3 className="text-[17px] text-[#00cccf] font-semibold leading-relaxed group-hover:text-[#00BFBF] transition-colors duration-300">
                 Faster cloud<br />
                 adoption with<br />
                 controlled<br />
@@ -94,7 +94,7 @@ export default function WhyGrait() {
             </div>
 
             {/* Card 2 - Structural cost efficiency */}
-            <div className="flex flex-col gap-6 rounded-2xl border border-[#1a4a7a] bg-[#0d2847] p-8">
+            <div className="group flex flex-col gap-6 rounded-2xl border border-[#1a4a7a] bg-[#0d2847] p-8 transition-all duration-300 hover:border-[#0099CC] hover:bg-gradient-to-br hover:from-[#0099CC]/20 hover:to-[#0099CC]/5 hover:shadow-[0_0_40px_rgba(0,153,204,0.6),inset_0_0_30px_rgba(0,153,204,0.15)] cursor-pointer">
               <div className="w-12 h-12 relative flex-shrink-0">
                 <Image
                   src="/money.svg"
@@ -103,7 +103,7 @@ export default function WhyGrait() {
                   className="object-contain"
                 />
               </div>
-              <h3 className="text-[17px] text-[#00cccf] font-semibold leading-relaxed">
+              <h3 className="text-[17px] text-[#00cccf] font-semibold leading-relaxed group-hover:text-[#00BFBF] transition-colors duration-300">
                 Structural cost<br />
                 efficiency and<br />
                 predictable<br />
@@ -112,7 +112,7 @@ export default function WhyGrait() {
             </div>
 
             {/* Card 3 - Reduced dependency */}
-            <div className="flex flex-col gap-6 rounded-2xl border border-[#1a4a7a] bg-[#0d2847] p-8">
+            <div className="group flex flex-col gap-6 rounded-2xl border border-[#1a4a7a] bg-[#0d2847] p-8 transition-all duration-300 hover:border-[#0099CC] hover:bg-gradient-to-br hover:from-[#0099CC]/20 hover:to-[#0099CC]/5 hover:shadow-[0_0_40px_rgba(0,153,204,0.6),inset_0_0_30px_rgba(0,153,204,0.15)] cursor-pointer">
               <div className="w-12 h-12 relative flex-shrink-0">
                 <Image
                   src="/dependancy.svg"
@@ -121,7 +121,7 @@ export default function WhyGrait() {
                   className="object-contain"
                 />
               </div>
-              <h3 className="text-[17px] text-[#00cccf] font-semibold leading-relaxed">
+              <h3 className="text-[17px] text-[#00cccf] font-semibold leading-relaxed group-hover:text-[#00BFBF] transition-colors duration-300">
                 Reduced<br />
                 dependency on<br />
                 people-heavy<br />
@@ -130,7 +130,7 @@ export default function WhyGrait() {
             </div>
 
             {/* Card 4 - Cloud operations that scale */}
-            <div className="flex flex-col gap-6 rounded-2xl border border-[#1a4a7a] bg-[#0d2847] p-8">
+            <div className="group flex flex-col gap-6 rounded-2xl border border-[#1a4a7a] bg-[#0d2847] p-8 transition-all duration-300 hover:border-[#0099CC] hover:bg-gradient-to-br hover:from-[#0099CC]/20 hover:to-[#0099CC]/5 hover:shadow-[0_0_40px_rgba(0,153,204,0.6),inset_0_0_30px_rgba(0,153,204,0.15)] cursor-pointer">
               <div className="w-12 h-12 relative flex-shrink-0">
                 <Image
                   src="/platform.svg"
@@ -139,7 +139,7 @@ export default function WhyGrait() {
                   className="object-contain"
                 />
               </div>
-              <h3 className="text-[17px] text-[#00cccf] font-semibold leading-relaxed">
+              <h3 className="text-[17px] text-[#00cccf] font-semibold leading-relaxed group-hover:text-[#00BFBF] transition-colors duration-300">
                 Cloud operations that<br />
                 scale as a platform<br />
                 capability

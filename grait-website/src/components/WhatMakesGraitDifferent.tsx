@@ -50,7 +50,7 @@ export default function WhatMakesGraitDifferent() {
           {cards.map((card, i) => (
             <div
               key={i}
-              className="flex flex-col gap-6 rounded-2xl border border-[#1a4a7a] bg-[#0a1f3d]/70 backdrop-blur-sm p-8"
+              className="group flex flex-col gap-6 rounded-2xl border border-[#1a4a7a] bg-[#0a1f3d]/70 backdrop-blur-sm p-8 transition-all duration-300 hover:border-[#0099CC] hover:bg-gradient-to-br hover:from-[#0099CC]/20 hover:to-[#0099CC]/5 hover:shadow-[0_0_40px_rgba(0,153,204,0.6),inset_0_0_30px_rgba(0,153,204,0.15)] cursor-pointer"
             >
               {/* Icon */}
               <div className="w-12 h-12 relative flex-shrink-0">
@@ -63,7 +63,7 @@ export default function WhatMakesGraitDifferent() {
               </div>
 
               {/* Description */}
-              <p className="text-[15px] text-gray-300 leading-relaxed">
+              <p className="text-[15px] text-gray-300 leading-relaxed group-hover:text-[#00BFBF] transition-colors duration-300">
                 {card.text}
               </p>
             </div>

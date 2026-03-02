@@ -78,7 +78,7 @@ export default function Platform() {
           {/* Grid of capabilities */}
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             {/* Card 1 - Automated cloud onboarding */}
-            <div className="flex flex-col gap-4 rounded-2xl border border-[#1a4a7a] bg-[#0d2847] p-8">
+            <div className="group flex flex-col gap-4 rounded-2xl border border-[#1a4a7a] bg-[#0d2847] p-8 transition-all duration-300 hover:border-[#0099CC] hover:bg-gradient-to-br hover:from-[#0099CC]/20 hover:to-[#0099CC]/5 hover:shadow-[0_0_40px_rgba(0,153,204,0.6),inset_0_0_30px_rgba(0,153,204,0.15)] cursor-pointer">
               <div className="w-12 h-12 relative flex-shrink-0">
                 <Image
                   src="/automated_cloud.svg"
@@ -87,13 +87,13 @@ export default function Platform() {
                   className="object-contain"
                 />
               </div>
-              <h3 className="text-[17px] text-[#00cccf] font-semibold leading-relaxed">
+              <h3 className="text-[17px] text-[#00cccf] font-semibold leading-relaxed group-hover:text-[#00BFBF] transition-colors duration-300">
                 Automated cloud onboarding (AWS, Azure, GCP, private cloud)
               </h3>
             </div>
 
             {/* Card 2 - GenAI-driven migration */}
-            <div className="flex flex-col gap-4 rounded-2xl border border-[#1a4a7a] bg-[#0d2847] p-8">
+            <div className="group flex flex-col gap-4 rounded-2xl border border-[#1a4a7a] bg-[#0d2847] p-8 transition-all duration-300 hover:border-[#0099CC] hover:bg-gradient-to-br hover:from-[#0099CC]/20 hover:to-[#0099CC]/5 hover:shadow-[0_0_40px_rgba(0,153,204,0.6),inset_0_0_30px_rgba(0,153,204,0.15)] cursor-pointer">
               <div className="w-12 h-12 relative flex-shrink-0">
                 <Image
                   src="/genai.svg"
@@ -102,13 +102,13 @@ export default function Platform() {
                   className="object-contain"
                 />
               </div>
-              <h3 className="text-[17px] text-[#00cccf] font-semibold leading-relaxed">
+              <h3 className="text-[17px] text-[#00cccf] font-semibold leading-relaxed group-hover:text-[#00BFBF] transition-colors duration-300">
                 GenAI-driven migration planning and execution
               </h3>
             </div>
 
             {/* Card 3 - Infrastructure provisioning */}
-            <div className="flex flex-col gap-4 rounded-2xl border border-[#1a4a7a] bg-[#0d2847] p-8">
+            <div className="group flex flex-col gap-4 rounded-2xl border border-[#1a4a7a] bg-[#0d2847] p-8 transition-all duration-300 hover:border-[#0099CC] hover:bg-gradient-to-br hover:from-[#0099CC]/20 hover:to-[#0099CC]/5 hover:shadow-[0_0_40px_rgba(0,153,204,0.6),inset_0_0_30px_rgba(0,153,204,0.15)] cursor-pointer">
               <div className="w-12 h-12 relative flex-shrink-0">
                 <Image
                   src="/infra.svg"
@@ -117,13 +117,13 @@ export default function Platform() {
                   className="object-contain"
                 />
               </div>
-              <h3 className="text-[17px] text-[#00cccf] font-semibold leading-relaxed">
+              <h3 className="text-[17px] text-[#00cccf] font-semibold leading-relaxed group-hover:text-[#00BFBF] transition-colors duration-300">
                 Infrastructure provisioning and configuration
               </h3>
             </div>
 
             {/* Card 4 - CI/CD */}
-            <div className="flex flex-col gap-4 rounded-2xl border border-[#1a4a7a] bg-[#0d2847] p-8">
+            <div className="group flex flex-col gap-4 rounded-2xl border border-[#1a4a7a] bg-[#0d2847] p-8 transition-all duration-300 hover:border-[#0099CC] hover:bg-gradient-to-br hover:from-[#0099CC]/20 hover:to-[#0099CC]/5 hover:shadow-[0_0_40px_rgba(0,153,204,0.6),inset_0_0_30px_rgba(0,153,204,0.15)] cursor-pointer">
               <div className="w-12 h-12 relative flex-shrink-0">
                 <Image
                   src="/cloud2.svg"
@@ -132,13 +132,13 @@ export default function Platform() {
                   className="object-contain"
                 />
               </div>
-              <h3 className="text-[17px] text-[#00cccf] font-semibold leading-relaxed">
+              <h3 className="text-[17px] text-[#00cccf] font-semibold leading-relaxed group-hover:text-[#00BFBF] transition-colors duration-300">
                 CI/CD and environment setup automation
               </h3>
             </div>
 
             {/* Card 5 - Observability */}
-            <div className="flex flex-col gap-4 rounded-2xl border border-[#1a4a7a] bg-[#0d2847] p-8">
+            <div className="group flex flex-col gap-4 rounded-2xl border border-[#1a4a7a] bg-[#0d2847] p-8 transition-all duration-300 hover:border-[#0099CC] hover:bg-gradient-to-br hover:from-[#0099CC]/20 hover:to-[#0099CC]/5 hover:shadow-[0_0_40px_rgba(0,153,204,0.6),inset_0_0_30px_rgba(0,153,204,0.15)] cursor-pointer">
               <div className="w-12 h-12 relative flex-shrink-0">
                 <Image
                   src="/observ.svg"
@@ -147,13 +147,13 @@ export default function Platform() {
                   className="object-contain"
                 />
               </div>
-              <h3 className="text-[17px] text-[#00cccf] font-semibold leading-relaxed">
+              <h3 className="text-[17px] text-[#00cccf] font-semibold leading-relaxed group-hover:text-[#00BFBF] transition-colors duration-300">
                 Observability, monitoring, and troubleshooting
               </h3>
             </div>
 
             {/* Card 6 - Cloud-agnostic */}
-            <div className="flex flex-col gap-4 rounded-2xl border border-[#1a4a7a] bg-[#0d2847] p-8">
+            <div className="group flex flex-col gap-4 rounded-2xl border border-[#1a4a7a] bg-[#0d2847] p-8 transition-all duration-300 hover:border-[#0099CC] hover:bg-gradient-to-br hover:from-[#0099CC]/20 hover:to-[#0099CC]/5 hover:shadow-[0_0_40px_rgba(0,153,204,0.6),inset_0_0_30px_rgba(0,153,204,0.15)] cursor-pointer">
               <div className="w-12 h-12 relative flex-shrink-0">
                 <Image
                   src="/cloud2.svg"
@@ -162,7 +162,7 @@ export default function Platform() {
                   className="object-contain"
                 />
               </div>
-              <h3 className="text-[17px] text-[#00cccf] font-semibold leading-relaxed">
+              <h3 className="text-[17px] text-[#00cccf] font-semibold leading-relaxed group-hover:text-[#00BFBF] transition-colors duration-300">
                 Cloud-agnostic deployment with no vendor lock-in
               </h3>
             </div>
