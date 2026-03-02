@@ -10,7 +10,7 @@ export default function WhatGrait() {
           <h2 className="text-4xl md:text-5xl font-extrabold text-[#0d1f3c] mb-6">
             What GRAIT is
           </h2>
-          <p className="text-[18px] md:text-[20px] text-gray-700 leading-relaxed max-w-3xl mx-auto">
+          <p className="text-[17px] text-gray-700 leading-relaxed max-w-3xl mx-auto">
             GRAIT is the world&apos;s first unified, GenAI-powered multi-cloud,
             multi-agent DevOps platform.
             <br className="hidden md:block" />

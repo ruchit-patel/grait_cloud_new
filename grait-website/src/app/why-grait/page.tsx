@@ -24,7 +24,7 @@ export default function WhyGrait() {
         <div className="absolute inset-0 bg-gradient-to-r from-[#001a33]/80 via-[#002447]/50 to-transparent" />
 
         {/* Content */}
-        <div className="relative z-10 w-full px-12 md:px-16 py-20">
+        <div className="relative z-10 w-full max-w-7xl mx-auto px-6 py-20">
           <h1 className="text-5xl md:text-6xl font-extrabold mb-8">
             <span className="bg-gradient-to-r from-[#00e5ff] via-[#00c3ff] to-[#0099ff] bg-clip-text text-transparent">
               The Shift
