@@ -28,8 +28,8 @@ export default function Navbar() {
     <nav
       className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
         scrolled
-          ? "bg-white/80 backdrop-blur-md shadow-md"
-          : "bg-white/60 backdrop-blur-sm"
+          ? "bg-white/95 backdrop-blur-md shadow-md"
+          : "bg-white/90 backdrop-blur-sm"
       }`}
     >
       <div className="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
@@ -53,10 +53,10 @@ export default function Navbar() {
               <Link
                 key={link.label}
                 href={link.href}
-                className={`text-[15px] font-semibold transition-colors duration-200 ${
+                className={`text-[15px] font-semibold transition-colors duration-200 pb-1 ${
                   isActive
-                    ? "text-[#0099CC] border-b-2 border-[#0099CC]"
-                    : "text-gray-800 hover:text-[#0099CC]"
+                    ? "text-gray-800 border-b-2 border-gray-800"
+                    : "text-gray-800 hover:text-[#0099CC] border-b-2 border-transparent hover:border-[#0099CC]"
                 }`}
               >
                 {link.label}
@@ -111,8 +111,8 @@ export default function Navbar() {
                 onClick={() => setMenuOpen(false)}
                 className={`text-[15px] font-semibold transition-colors duration-200 ${
                   isActive
-                    ? "text-[#0099CC] border-l-4 border-[#0099CC] pl-3"
-                    : "text-gray-800 hover:text-[#0099CC]"
+                    ? "text-gray-800 border-l-4 border-gray-800 pl-3"
+                    : "text-gray-800 hover:text-[#0099CC] border-l-4 border-transparent hover:border-[#0099CC]"
                 }`}
               >
                 {link.label}

@@ -36,13 +36,13 @@ export default function Hero() {
           {/* CTA Buttons */}
           <div className="flex items-center gap-4 flex-wrap">
             <Link
-              href="#platform"
+              href="/platform"
               className="bg-[#0099CC] hover:bg-[#007FAA] text-white text-[15px] font-semibold px-7 py-3 rounded-full transition-colors duration-200"
             >
               Explore the Platform
             </Link>
             <Link
-              href="#why-grait"
+              href="/why-grait"
               className="border-2 border-white text-white hover:bg-white hover:text-[#0d1f3c] text-[15px] font-semibold px-7 py-3 rounded-full transition-all duration-200"
             >
               Why GRAIT
