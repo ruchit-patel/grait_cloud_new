@@ -55,7 +55,7 @@ export default function Platform() {
         </div>
 
         <div className="max-w-6xl mx-auto relative z-10">
-          <div className="bg-[#e8f4f8] rounded-3xl px-12 py-14 text-center shadow-2xl">
+          <div className="bg-[#e8f4f8] rounded-[60px] px-12 py-14 text-center shadow-2xl">
             <h2 className="text-4xl md:text-5xl font-extrabold text-[#0d1f3c] mb-6">
               What It Does
             </h2>
