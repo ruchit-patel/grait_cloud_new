@@ -69,7 +69,7 @@ export default function Platform() {
       </section>
 
       {/* Key Capabilities section */}
-      <section className="w-full py-20 px-6 bg-[#0a1f3d]">
+      <section className="w-full pt-2 py-20 px-6 bg-[#0a1f3d]">
         <div className="max-w-7xl mx-auto">
           <h2 className="text-4xl md:text-5xl font-extrabold text-white text-center mb-16">
             Key Capabilities

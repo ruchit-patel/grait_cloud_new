@@ -36,7 +36,7 @@ export default function WhatGrait() {
           </p>
           {/* Image — 75% width, pushed right to meet the divider */}
           <div className="flex justify-end mt-auto pl-8">
-            <div className="relative w-3/4 rounded-tl-[3rem] rounded-bl-2xl overflow-hidden shadow-2xl" style={{ height: "320px" }}>
+            <div className="relative w-[85%] rounded-tl-[3rem] rounded-bl-2xl overflow-hidden shadow-2xl" style={{ height: "320px" }}>
               <Image
                 src="/below_hero1.png"
                 alt="The Problem"
@@ -78,7 +78,7 @@ export default function WhatGrait() {
 
           {/* Image — 75% width, pushed left to meet the divider */}
           <div className="flex justify-start mt-auto pr-8 relative z-10">
-            <div className="relative w-3/4 rounded-tr-[3rem] rounded-br-2xl overflow-hidden shadow-2xl" style={{ height: "320px" }}>
+            <div className="relative w-[85%] rounded-tr-[3rem] rounded-br-2xl overflow-hidden shadow-2xl" style={{ height: "320px" }}>
               <Image
                 src="/below_hero2.png"
                 alt="The GRAIT Difference"

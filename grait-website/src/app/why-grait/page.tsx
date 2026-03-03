@@ -32,10 +32,10 @@ export default function WhyGrait() {
           </h1>
           <p className="text-[20px] md:text-[22px] text-gray-300 font-normal leading-relaxed max-w-2xl mb-6">
             We're past the AI hype phase.<br />
-            The real challenge today is not intelligence
+            The real challenge today is not intelligence,
           </p>
           <p className="text-[20px] md:text-[22px] text-white font-bold leading-relaxed max-w-[600px]">
-            it's operability.
+            It's operability.
           </p>
         </div>
       </section>
@@ -67,7 +67,7 @@ export default function WhyGrait() {
       </section>
 
       {/* Outcomes That Matter section */}
-      <section className="w-full py-20 px-6 bg-[#0a1f3d]">
+      <section className="w-full pt-2 pb-20 px-6 bg-[#0a1f3d]">
         <div className="max-w-7xl mx-auto">
           <h2 className="text-4xl md:text-5xl font-extrabold text-white text-center mb-16">
             <span className="text-[#00cccf]">Outcomes</span> That Matter
