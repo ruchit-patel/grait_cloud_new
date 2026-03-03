@@ -20,7 +20,7 @@ export default function Hero() {
           {/* Headline */}
           <h1 className="text-4xl md:text-5xl lg:text-[52px] font-extrabold text-white leading-tight mb-6">
             A unified,{" "}
-            <span className="text-white">GenAI-powered </span>
+            <span className="text-white">AI-powered </span>
             <span className="text-[#00BFBF]">multi-cloud</span>
             <br />
             <span className="text-[#00BFBF]">&amp; DevOps platform</span>

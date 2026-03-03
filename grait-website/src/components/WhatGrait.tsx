@@ -4,9 +4,9 @@ export default function WhatGrait() {
   return (
     <section className="w-full">
 
-      {/* ── "What GRAIT is" card — floats over hero ── */}
+     {/* ── "What GRAIT is" card — floats over hero ── */}
       <div className="relative z-10 -mt-28 px-6 pb-0">
-        <div className="bg-[#e8f4f8] rounded-3xl px-12 py-14 text-center max-w-5xl mx-auto shadow-2xl">
+        <div className="bg-[#e8f4f8] rounded-[60px] px-12 py-14 text-center max-w-5xl mx-auto shadow-2xl">
           <h2 className="text-4xl md:text-5xl font-extrabold text-[#0d1f3c] mb-6">
             What GRAIT is
           </h2>
