@@ -27,7 +27,7 @@ export default function Contact() {
         <div className="relative z-10 w-full max-w-7xl mx-auto px-6 py-20">
           <h1 className="text-5xl md:text-6xl font-extrabold mb-8">
             <span className="bg-gradient-to-r from-[#00e5ff] via-[#00c3ff] to-[#0099ff] bg-clip-text text-transparent">
-              Contact
+              Contact Us
             </span>
           </h1>
           <p className="text-[20px] md:text-[22px] text-gray-300 font-normal leading-relaxed max-w-2xl mb-6">
@@ -94,7 +94,7 @@ export default function Contact() {
       </section>
 
       {/* Contact Information section */}
-      <section className="w-full py-20 px-6 bg-[#0a1f3d]">
+      <section className="w-full pt-2 py-20 px-6 bg-[#0a1f3d]">
         <div className="max-w-4xl mx-auto text-center">
           <h2 className="text-3xl md:text-4xl font-bold text-[#00cccf] mb-8">
             We'd love to talk

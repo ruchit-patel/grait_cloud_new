@@ -27,14 +27,14 @@ export default function Platform() {
         <div className="relative z-10 w-full max-w-7xl mx-auto px-6 py-20">
           <h1 className="text-5xl md:text-6xl font-extrabold mb-6">
             <span className="bg-gradient-to-r from-[#00e5ff] via-[#00c3ff] to-[#0099ff] bg-clip-text text-transparent">
-              DevOps AI Agents
+              DevOps AI Assistant
             </span>
           </h1>
           <p className="text-2xl md:text-2xl text-white font-semibold mb-4 max-w-2xl">
             The DevOps AI Agent is the intelligence layer of GRAIT.
           </p>
           <p className="text-[16px] text-gray-300 leading-relaxed max-w-[480px]">
-            It automates cloud onboarding, migration,<br />
+            It simplifies cloud onboarding, migration,<br />
             and day-to-day DevOps operations — <br />
             reducing dependency on large, specialized
             teams.
@@ -62,7 +62,7 @@ export default function Platform() {
             <p className="text-[17px] text-gray-700 leading-relaxed max-w-4xl mx-auto">
               The AI Agent continuously plans, executes, monitors, and optimizes infrastructure workflows across environments.
               <br className="hidden md:block" />
-              It transforms traditionally people-heavy, error-prone DevOps tasks into governed, repeatable platform actions.
+              It transforms traditionally people-heavy, error prone DevOps tasks into governed, repeatable platform actions.
             </p>
           </div>
         </div>
@@ -118,7 +118,7 @@ export default function Platform() {
                 />
               </div>
               <h3 className="text-[17px] text-[#00cccf] font-semibold leading-relaxed group-hover:text-[#00BFBF] transition-colors duration-300">
-                Infrastructure provisioning and configuration
+                Infrastructure recommendation, provisioning, & configuration
               </h3>
             </div>
 
@@ -163,7 +163,7 @@ export default function Platform() {
                 />
               </div>
               <h3 className="text-[17px] text-[#00cccf] font-semibold leading-relaxed group-hover:text-[#00BFBF] transition-colors duration-300">
-                Cloud-agnostic deployment with no vendor lock-in
+                Cloud agnostic deployment with no vendor lock-in
               </h3>
             </div>
           </div>
@@ -192,7 +192,7 @@ export default function Platform() {
           <p className="text-2xl md:text-3xl text-white font-semibold leading-relaxed">
             DevOps, without cloud lock-in.
             <br />
-            Operate once. Scale everywhere.
+            Operate once. Scale anytime.
           </p>
         </div>
       </section>

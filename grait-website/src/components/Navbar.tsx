@@ -10,7 +10,7 @@ const navLinks = [
   { label: "Platform", href: "/platform" },
   { label: "Infrastructure", href: "/infrastructure" },
   { label: "Why GRAIT", href: "/why-grait" },
-  { label: "Contact", href: "/contact" },
+  { label: "Contact Us", href: "/contact" },
 ];
 
 export default function Navbar() {
