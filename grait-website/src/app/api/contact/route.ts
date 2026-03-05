@@ -23,7 +23,7 @@ export async function POST(request: Request) {
         Authorization: `Bearer ${RESEND_API_KEY}`,
       },
       body: JSON.stringify({
-        from: "GRAIT Cloud <noreply@graitcloud.com>",
+        from: "GRAIT Cloud <noreply@staging.graitcloud.com>",
         to: "hello@graitcloud.com",
         reply_to: email,
         subject: `Contact Form: ${name}${company ? ` (${company})` : ""}`,
