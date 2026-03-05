@@ -61,9 +61,9 @@ export default function Platform() {
               What It Does
             </h2>
             <p className="text-[17px] text-gray-700 font-semibold leading-relaxed max-w-3xl mx-auto">
-              The AI Agent continuously plans, executes, monitors, and optimizes infrastructure workflows across environments.
+              The AI Agent continuously plans, <span className="font-semibold text-[#00BFBF] relative inline-block hover:scale-110 transition-transform cursor-default">executes</span>, <span className="font-semibold text-[#0099CC] relative inline-block hover:scale-110 transition-transform cursor-default">monitors</span>, and <span className="font-semibold text-[#00BFBF] relative inline-block hover:scale-110 transition-transform cursor-default">optimizes</span> <br className="hidden md:block" /> infrastructure workflows across environments.
               <br className="hidden md:block" />
-              It transforms traditionally people-heavy, error prone DevOps tasks into governed, repeatable platform actions.
+              It transforms traditionally people-heavy, error prone <br className="hidden md:block" /> DevOps tasks into governed, repeatable platform actions.
             </p>
           </GlowCard>
         </div>

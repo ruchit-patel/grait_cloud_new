@@ -55,7 +55,7 @@ export default function Contact() {
         <div className="max-w-5xl mx-auto relative z-10">
           <GlowCard>
             <h2 className="text-4xl md:text-5xl font-extrabold mb-6 pb-2 bg-gradient-to-r from-[#0d1f3c] via-[#0099CC] to-[#00BFBF] bg-clip-text text-transparent animate-gradient bg-300 drop-shadow-sm">
-              If you&apos;re exploring
+              If You&apos;re Exploring
             </h2>
 
             {/* Grid of 3 categories with dividers */}
