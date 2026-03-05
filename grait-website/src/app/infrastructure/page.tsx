@@ -1,5 +1,6 @@
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
+import GlowCard from "@/components/GlowCard";
 import Image from "next/image";
 
 export default function Infrastructure() {
@@ -48,7 +49,7 @@ export default function Infrastructure() {
       </section>
 
       {/* "What We Offer Today" card section */}
-      <section className="relative w-full px-6 -mt-32 pb-16">
+      <section className="relative w-full px-6 -mt-28 pb-16">
         {/* Gradient background SVG behind the card */}
         <div className="absolute left-0 right-0 top-[-200px] h-[556px] pointer-events-none select-none z-0">
           <Image
@@ -59,9 +60,9 @@ export default function Infrastructure() {
           />
         </div>
 
-        <div className="max-w-6xl mx-auto relative z-10">
-          <div className="bg-[#e8f4f8] rounded-[60px] px-12 py-14 text-center shadow-2xl">
-            <h2 className="text-4xl md:text-5xl font-extrabold text-[#0d1f3c] mb-12">
+        <div className="max-w-5xl mx-auto relative z-10">
+          <GlowCard>
+            <h2 className="text-4xl md:text-5xl font-extrabold mb-6 pb-2 bg-gradient-to-r from-[#0d1f3c] via-[#0099CC] to-[#00BFBF] bg-clip-text text-transparent animate-gradient bg-300 drop-shadow-sm">
               What We Offer Today
             </h2>
 
@@ -69,46 +70,46 @@ export default function Infrastructure() {
             <div className="flex flex-col md:flex-row items-center justify-center gap-8 md:gap-0">
               {/* Offering 1 */}
               <div className="flex-1 flex flex-col items-center px-6">
-                <h4 className="text-[18px] md:text-[20px] text-[#4a5568] font-semibold leading-relaxed">
+                <h4 className="text-[17px] text-gray-700 font-semibold leading-relaxed">
                   Dedicated CPU and<br />
                   GPU servers
                 </h4>
               </div>
 
               {/* Divider 1 */}
-              <div className="hidden md:block w-px h-16 bg-gradient-to-b from-[#00cccf] to-[#00cccf]/40" />
+              <div className="hidden md:block w-px h-12 bg-gradient-to-b from-[#00cccf] to-[#00cccf]/40" />
 
               {/* Offering 2 */}
               <div className="flex-1 flex flex-col items-center px-6">
-                <h4 className="text-[18px] md:text-[20px] text-[#4a5568] font-semibold leading-relaxed">
+                <h4 className="text-[17px] text-gray-700 font-semibold leading-relaxed">
                   Network isolation and<br />
                   security controls
                 </h4>
               </div>
 
               {/* Divider 2 */}
-              <div className="hidden md:block w-px h-16 bg-gradient-to-b from-[#00cccf] to-[#00cccf]/40" />
+              <div className="hidden md:block w-px h-12 bg-gradient-to-b from-[#00cccf] to-[#00cccf]/40" />
 
               {/* Offering 3 */}
               <div className="flex-1 flex flex-col items-center px-6">
-                <h4 className="text-[18px] md:text-[20px] text-[#4a5568] font-semibold leading-relaxed">
+                <h4 className="text-[17px] text-gray-700 font-semibold leading-relaxed">
                   Managed infrastructure
                   operations
                 </h4>
               </div>
 
               {/* Divider 3 */}
-              <div className="hidden md:block w-px h-16 bg-gradient-to-b from-[#00cccf] to-[#00cccf]/40" />
+              <div className="hidden md:block w-px h-12 bg-gradient-to-b from-[#00cccf] to-[#00cccf]/40" />
 
               {/* Offering 4 */}
               <div className="flex-1 flex flex-col items-center px-6">
-                <h4 className="text-[18px] md:text-[20px] text-[#4a5568] font-semibold leading-relaxed">
+                <h4 className="text-[17px] text-gray-700 font-semibold leading-relaxed">
                   AI-optimized<br />
                   configurations
                 </h4>
               </div>
             </div>
-          </div>
+          </GlowCard>
         </div>
       </section>
 
@@ -192,7 +193,7 @@ export default function Infrastructure() {
       </section>
 
       {/* Future-Ready Data Center Vision section */}
-      <section className="relative w-full py-32 px-6 overflow-hidden min-h-[600px]">
+      <section className="relative w-full py-16 px-6 overflow-hidden min-h-[600px]">
         {/* infra_path_bg.svg background */}
         <div className="absolute inset-0 pointer-events-none select-none">
           <Image
@@ -210,7 +211,7 @@ export default function Infrastructure() {
 
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center h-full">
             {/* Left side - Text content */}
-            <div className="space-y-12">
+            <div className="space-y-40 -mt-20">
               <div>
                 <h3 className="text-2xl md:text-3xl font-bold text-white mb-4">
                   Built to Scale

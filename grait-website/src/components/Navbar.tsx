@@ -4,6 +4,7 @@ import { useState, useEffect } from "react";
 import Image from "next/image";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
+import ContactFormModal from "./ContactFormModal";
 
 const navLinks = [
   { label: "Home", href: "/" },
@@ -16,6 +17,7 @@ const navLinks = [
 export default function Navbar() {
   const [scrolled, setScrolled] = useState(false);
   const [menuOpen, setMenuOpen] = useState(false);
+  const [contactOpen, setContactOpen] = useState(false);
   const pathname = usePathname();
 
   useEffect(() => {
@@ -25,6 +27,7 @@ export default function Navbar() {
   }, []);
 
   return (
+    <>
     <nav
       className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
         scrolled
@@ -67,12 +70,12 @@ export default function Navbar() {
 
         {/* CTA Button */}
         <div className="hidden md:block">
-          <Link
-            href="/contact"
-            className="bg-[#0099CC] hover:bg-[#007FAA] text-white text-[15px] font-semibold px-6 py-2.5 rounded-lg transition-colors duration-200"
+          <button
+            onClick={() => setContactOpen(true)}
+            className="bg-gradient-to-r from-[#00BFBF] to-[#0099CC] hover:opacity-90 text-white text-[15px] font-semibold px-6 py-2.5 rounded-lg transition-opacity duration-200"
           >
             Talk to us
-          </Link>
+          </button>
         </div>
 
         {/* Mobile Hamburger */}
@@ -119,15 +122,20 @@ export default function Navbar() {
               </Link>
             );
           })}
-          <Link
-            href="/contact"
-            onClick={() => setMenuOpen(false)}
-            className="bg-[#0099CC] hover:bg-[#007FAA] text-white text-[15px] font-semibold px-6 py-2.5 rounded-lg text-center transition-colors duration-200 mt-2"
+          <button
+            onClick={() => {
+              setMenuOpen(false);
+              setContactOpen(true);
+            }}
+            className="bg-gradient-to-r from-[#00BFBF] to-[#0099CC] hover:opacity-90 text-white text-[15px] font-semibold px-6 py-2.5 rounded-lg text-center transition-opacity duration-200 mt-2"
           >
             Talk to us
-          </Link>
+          </button>
         </div>
       )}
     </nav>
+
+    <ContactFormModal isOpen={contactOpen} onClose={() => setContactOpen(false)} />
+    </>
   );
 }

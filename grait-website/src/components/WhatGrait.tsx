@@ -73,10 +73,10 @@ export default function WhatGrait() {
 
           {/* Content */}
           <div className="relative z-10">
-            <h2 className="text-4xl md:text-5xl font-extrabold mb-6 bg-gradient-to-r from-[#0d1f3c] via-[#0099CC] to-[#00BFBF] bg-clip-text text-transparent animate-gradient bg-300 drop-shadow-sm">
-              What GRAIT IS
+            <h2 className="text-4xl md:text-5xl font-extrabold mb-6 pb-2 bg-gradient-to-r from-[#0d1f3c] via-[#0099CC] to-[#00BFBF] bg-clip-text text-transparent animate-gradient bg-300 drop-shadow-sm">
+              What GRAIT Is
             </h2>
-            <p className="text-[17px] text-gray-700 leading-relaxed max-w-3xl mx-auto">
+            <p className="text-[17px] text-gray-700 font-semibold leading-relaxed max-w-3xl mx-auto">
               <span className="font-bold bg-gradient-to-r from-[#0099CC] to-[#00BFBF] bg-clip-text text-transparent">GRAIT</span> is the world&apos;s first unified, AI-powered multi-cloud,
               multi-agent DevOps platform.
               <br className="hidden md:block" />

@@ -1,5 +1,6 @@
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
+import GlowCard from "@/components/GlowCard";
 import Image from "next/image";
 
 export default function Platform() {
@@ -31,7 +32,7 @@ export default function Platform() {
             </span>
           </h1>
           <p className="text-2xl md:text-2xl text-white font-semibold mb-4 max-w-2xl">
-            The DevOps AI Agent is the intelligence layer of GRAIT.
+            The DevOps AI Assistant is the intelligence layer of GRAIT.
           </p>
           <p className="text-[16px] text-gray-300 leading-relaxed max-w-[480px]">
             It simplifies cloud onboarding, migration,<br />
@@ -43,7 +44,7 @@ export default function Platform() {
       </section>
 
       {/* "What It Does" card section */}
-      <section className="relative w-full px-6 -mt-32 pb-16">
+      <section className="relative w-full px-6 -mt-28 pb-16">
         {/* Gradient background SVG behind the card */}
         <div className="absolute left-0 right-0 top-[-200px] h-[556px] pointer-events-none select-none z-0">
           <Image
@@ -54,17 +55,17 @@ export default function Platform() {
           />
         </div>
 
-        <div className="max-w-6xl mx-auto relative z-10">
-          <div className="bg-[#e8f4f8] rounded-[60px] px-12 py-14 text-center shadow-2xl">
-            <h2 className="text-4xl md:text-5xl font-extrabold text-[#0d1f3c] mb-6">
+        <div className="max-w-5xl mx-auto relative z-10">
+          <GlowCard>
+            <h2 className="text-4xl md:text-5xl font-extrabold mb-6 pb-2 bg-gradient-to-r from-[#0d1f3c] via-[#0099CC] to-[#00BFBF] bg-clip-text text-transparent animate-gradient bg-300 drop-shadow-sm">
               What It Does
             </h2>
-            <p className="text-[17px] text-gray-700 leading-relaxed max-w-4xl mx-auto">
+            <p className="text-[17px] text-gray-700 font-semibold leading-relaxed max-w-3xl mx-auto">
               The AI Agent continuously plans, executes, monitors, and optimizes infrastructure workflows across environments.
               <br className="hidden md:block" />
               It transforms traditionally people-heavy, error prone DevOps tasks into governed, repeatable platform actions.
             </p>
-          </div>
+          </GlowCard>
         </div>
       </section>
 
@@ -103,7 +104,7 @@ export default function Platform() {
                 />
               </div>
               <h3 className="text-[17px] text-[#00cccf] font-semibold leading-relaxed group-hover:text-[#00BFBF] transition-colors duration-300">
-                GenAI-driven migration planning and execution
+                AI driven migration planning and execution
               </h3>
             </div>
 
@@ -171,7 +172,7 @@ export default function Platform() {
       </section>
 
       {/* Core Principle section */}
-      <section className="relative w-full py-32 px-6 overflow-hidden min-h-[500px]">
+      <section className="relative w-full pt-16 pb-32 px-6 overflow-hidden min-h-[500px]">
         {/* bg2.svg background */}
         <div className="absolute inset-0 pointer-events-none select-none">
           <Image

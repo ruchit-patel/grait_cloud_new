@@ -26,7 +26,7 @@ const cards = [
 export default function WhatMakesGraitDifferent() {
   return (
     <section
-      className="relative w-full py-20 px-6 overflow-hidden"
+      className="relative w-full py-16 px-6 overflow-hidden"
       style={{ backgroundColor: "#061735" }}
     >
       {/* Background SVG */}
@@ -39,7 +39,7 @@ export default function WhatMakesGraitDifferent() {
         />
       </div>
 
-      <div className="relative z-10 max-w-6xl mx-auto">
+      <div className="relative z-10 max-w-6xl mx-auto mt-0">
         {/* Heading */}
         <h2 className="text-4xl md:text-5xl font-extrabold text-white text-center mb-16">
           What Makes GRAIT Different

@@ -1,5 +1,6 @@
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
+import GlowCard from "@/components/GlowCard";
 import Image from "next/image";
 
 export default function WhyGrait() {
@@ -12,7 +13,7 @@ export default function WhyGrait() {
         {/* Background image */}
         <div className="absolute inset-0 w-full h-full">
           <Image
-            src="/why_grait_hero.png"
+            src="/theshift.jpeg"
             alt=""
             fill
             className="object-cover object-center"
@@ -41,7 +42,7 @@ export default function WhyGrait() {
       </section>
 
       {/* The GRAIT Philosophy card section */}
-      <section className="relative w-full px-6 -mt-32 pb-16">
+      <section className="relative w-full px-6 -mt-28 pb-16">
         {/* Gradient background SVG behind the card */}
         <div className="absolute left-0 right-0 top-[-200px] h-[556px] pointer-events-none select-none z-0">
           <Image
@@ -52,17 +53,17 @@ export default function WhyGrait() {
           />
         </div>
 
-        <div className="max-w-6xl mx-auto relative z-10">
-          <div className="bg-[#e8f4f8] rounded-[60px] px-12 py-14 text-center shadow-2xl">
-            <h2 className="text-4xl md:text-5xl font-extrabold text-[#0d1f3c] mb-8">
+        <div className="max-w-5xl mx-auto relative z-10">
+          <GlowCard>
+            <h2 className="text-4xl md:text-5xl font-extrabold mb-6 pb-2 bg-gradient-to-r from-[#0d1f3c] via-[#0099CC] to-[#00BFBF] bg-clip-text text-transparent animate-gradient bg-300 drop-shadow-sm">
               The GRAIT Philosophy
             </h2>
-            <p className="text-[17px] text-gray-700 leading-relaxed max-w-4xl mx-auto">
+            <p className="text-[17px] text-gray-700 font-semibold leading-relaxed max-w-3xl mx-auto">
               Cloud and AI must run reliably every day, at scale, without hero engineers or fragile setups.
               <br className="hidden md:block" />
               GRAIT is designed as an operational platform — not a consulting exercise.
             </p>
-          </div>
+          </GlowCard>
         </div>
       </section>
 
@@ -150,7 +151,7 @@ export default function WhyGrait() {
       </section>
 
       {/* Who GRAIT Is For section */}
-      <section className="relative w-full py-40 px-6 overflow-hidden min-h-[700px]">
+      <section className="relative w-full py-20 px-6 overflow-hidden min-h-[700px]">
         {/* Background image */}
         <div className="absolute inset-0 pointer-events-none select-none">
           <Image
