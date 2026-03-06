@@ -28,11 +28,11 @@ export default function Platform() {
         <div className="relative z-10 w-full max-w-7xl mx-auto px-6 py-20">
           <h1 className="text-5xl md:text-6xl font-extrabold mb-6">
             <span className="bg-gradient-to-r from-[#00e5ff] via-[#00c3ff] to-[#0099ff] bg-clip-text text-transparent">
-              DevOps AI Assistant
+              AI DevOps Assistant
             </span>
           </h1>
           <p className="text-2xl md:text-2xl text-white font-semibold mb-4 max-w-2xl">
-            The DevOps AI Assistant is the intelligence layer of GRAIT.
+            The AI DevOps Assistant is the intelligence layer of GRAIT.
           </p>
           <p className="text-[16px] text-gray-300 leading-relaxed max-w-[480px]">
             It simplifies cloud onboarding, migration,<br />
