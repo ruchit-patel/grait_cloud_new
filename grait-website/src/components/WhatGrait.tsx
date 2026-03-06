@@ -99,7 +99,7 @@ export default function WhatGrait() {
           </h3>
           <p className="text-[18px] text-gray-300 leading-relaxed text-right mb-8 px-12">
             Most cloud initiatives fail or stall because they are treated as
-            one-off DevOps projects — dependent on large teams, manual effort,
+            one-off DevOps projects, dependent on large teams, manual effort,
             and institutional knowledge.
           </p>
           {/* Image — 75% width, pushed right to meet the divider */}

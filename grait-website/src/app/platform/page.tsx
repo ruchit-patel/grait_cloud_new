@@ -36,7 +36,7 @@ export default function Platform() {
           </p>
           <p className="text-[16px] text-gray-300 leading-relaxed max-w-[480px]">
             It simplifies cloud onboarding, migration,<br />
-            and day-to-day DevOps operations — <br />
+            and day-to-day DevOps operations, <br />
             reducing dependency on large, specialized
             teams.
           </p>
@@ -60,10 +60,10 @@ export default function Platform() {
             <h2 className="text-4xl md:text-5xl font-extrabold mb-6 pb-2 bg-gradient-to-r from-[#0d1f3c] via-[#0099CC] to-[#00BFBF] bg-clip-text text-transparent animate-gradient bg-300 drop-shadow-sm">
               What It Does
             </h2>
-            <p className="text-[17px] text-gray-700 font-semibold leading-relaxed max-w-3xl mx-auto">
-              The AI Agent continuously plans, <span className="font-semibold text-[#00BFBF] relative inline-block hover:scale-110 transition-transform cursor-default">executes</span>, <span className="font-semibold text-[#0099CC] relative inline-block hover:scale-110 transition-transform cursor-default">monitors</span>, and <span className="font-semibold text-[#00BFBF] relative inline-block hover:scale-110 transition-transform cursor-default">optimizes</span> <br className="hidden md:block" /> infrastructure workflows across environments.
+            <p className="text-[17px] text-gray-700 font-semibold leading-relaxed max-w-4xl mx-auto">
+              The AI Agent continuously plans, <span className="font-semibold text-[#00BFBF] relative inline-block hover:scale-110 transition-transform cursor-default">executes</span>, <span className="font-semibold text-[#0099CC] relative inline-block hover:scale-110 transition-transform cursor-default">monitors</span>, and <span className="font-semibold text-[#00BFBF] relative inline-block hover:scale-110 transition-transform cursor-default">optimizes</span>  <br className="hidden md:block" />infrastructure workflows across environments.
               <br className="hidden md:block" />
-              It transforms traditionally people-heavy, error prone <br className="hidden md:block" /> DevOps tasks into governed, repeatable platform actions.
+              It transforms traditionally people-heavy, error prone DevOps tasks into governed, repeatable platform actions.
             </p>
           </GlowCard>
         </div>

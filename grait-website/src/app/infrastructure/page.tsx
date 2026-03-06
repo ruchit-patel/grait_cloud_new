@@ -42,7 +42,7 @@ export default function Infrastructure() {
           </p>
           <p className="text-[20px] md:text-[22px] text-gray-300 font-normal leading-relaxed max-w-[600px]">
             This ensures control, isolation, and<br />
-            predictable performance — without<br />
+            predictable performance without<br />
             sacrificing flexibility.
           </p>
         </div>

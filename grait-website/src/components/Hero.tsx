@@ -28,7 +28,7 @@ export default function Hero() {
           {/* Subtext */}
           <p className="text-[16px] md:text-[17px] text-gray-300 leading-relaxed mb-10 max-w-[480px]">
             Build, migrate, and operate infrastructure across public cloud,
-            private cloud, and hybrid environments — with speed, control, and
+            private cloud, and hybrid environments with speed, control, and
             intelligence.
           </p>
 
