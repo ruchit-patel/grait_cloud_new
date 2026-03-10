@@ -59,9 +59,9 @@ export default function WhyGrait() {
               The GRAIT Philosophy
             </h2>
             <p className="text-[17px] text-gray-700 font-semibold leading-relaxed max-w-3xl mx-auto">
-              Cloud and AI must run reliably every day, at scale, without hero engineers or fragile setups.
+              Cloud and AI must run reliably every day, at scale,<br className="hidden md:block" /> without hero engineers or fragile setups.
               <br className="hidden md:block" />
-              GRAIT is designed as an operational platform — not a consulting exercise.
+              GRAIT is designed as an operational platform, not a consulting exercise.
             </p>
           </GlowCard>
         </div>
