@@ -48,7 +48,7 @@ export default function GlowCard({ children }: { children: React.ReactNode }) {
       />
 
       {/* Animated gradient background */}
-      <div className="absolute inset-0 bg-gradient-to-br from-white via-[#e8f9fc] to-[#d0f4fc]"></div>
+      <div className="absolute inset-0 bg-gradient-to-br from-white via-[#e8f9fc] to-[#d0f4fc] opacity-70"></div>
 
       {/* Floating orbs */}
       <div className="absolute top-10 -left-10 w-40 h-40 bg-gradient-to-br from-[#00BFBF]/30 to-[#0099CC]/10 rounded-full blur-3xl animate-float"></div>
