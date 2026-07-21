@@ -11,6 +11,7 @@ const navLinks = [
   { label: "Platform", href: "/platform" },
   { label: "Infrastructure", href: "/infrastructure" },
   { label: "Why GRAIT", href: "/why-grait" },
+  { label: "Press", href: "/press" },
   { label: "Contact Us", href: "/contact" },
 ];
 
